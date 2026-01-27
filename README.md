@@ -8,3 +8,6 @@ Group Project Repo
 
 ## Project Idea
 Placeholder
+
+## Project Timeline
+This project will take 12 weeks. 
