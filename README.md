@@ -58,6 +58,4 @@ This tool streamlines the process with exceptional speed and accuracy, significa
 
 - Weeks 6-7: Testing and Documentation
 
-![bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8 u1](https://github.com/user-attachments/assets/e567fd04-28bf-475f-a341-45347775ad9a)
-![bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8 u1](https://github.com/user-attachments/assets/e567fd04-28bf-475f-a341-45347775ad9a)
-
+![bg,f8f8f8-flat,150x,075,f-pad,750x1000,f8f8f8 u1](https://github.com/user-attachments/assets/e567fd04-28bf-475f-a341-45347775ad9a)
