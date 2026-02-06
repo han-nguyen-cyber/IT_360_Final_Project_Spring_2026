@@ -1,5 +1,5 @@
 # IT_360_Final_Project_Spring_2026
-Group Project Repo - Linux Live Response Digital Forensics Tool
+Group Project Repo - Linux Live Response Automated Artifact Collection with Persistence Detection
 
 ## Team Members
 * Member 1: Han Nguyen
