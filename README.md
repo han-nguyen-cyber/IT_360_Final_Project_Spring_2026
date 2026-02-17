@@ -50,7 +50,7 @@ There is a lack of immediate forensic visibility during incidents. When a system
 This tool streamlines the process with exceptional speed and accuracy, significantly reducing the risk of contamination. It addresses the challenges of inconsistent and potentially unsafe forensic evidence collection on live Linux systems by delivering a standardized, defensible live-response solution that reliably preserves critical system and persistence artifacts for thorough investigation.
 
 ## Project's AI Integration:
-After we collect digital forensics information via bash scripting, we will use AI to format the data into clearly readable sections.
+After we collect digital forensics information via bash scripting, we will use AI to generate a detailed report, complete with risk analysis, remediation suggestions, and MITRE ATT&CK framework mappings.
 
 ## Project Timeline
 - Week 1: Planning
