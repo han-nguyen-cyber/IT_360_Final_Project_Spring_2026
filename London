@@ -1,0 +1,14 @@
+This adds a beginner-friendly persistence detection tool that scans:
+
+- Cron jobs
+- SUID binaries
+- Systemd services
+
+The tool flags suspicious patterns such as:
+- wget/curl usage
+- scripts running from /tmp
+- unusual SUID binaries
+
+Future improvements:
+- add scoring system
+- expand detection rules
