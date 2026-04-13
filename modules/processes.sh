@@ -1,3 +1,3 @@
-ps aux > processes.txt
-lsmod > kernel_modules.txt
-systemctl list-units --type=service > services.txt
+OUTPUT="output/processes.txt"
+
+ps aux > $OUTPUT

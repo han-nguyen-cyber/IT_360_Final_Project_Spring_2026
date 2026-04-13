@@ -1,8 +1,11 @@
-OUT=$1/system
-mkdir -p "$OUT"
+#!/bin/bash
 
-uname -a > "$OUT/kernel.txt"
-hostnamectl > "$OUT/hostname.txt"
-timedatectl > "$OUT/timezone.txt"
-lscpu > "$OUT/cpu.txt"
-free -h > "$OUT/memory.txt"
+OUTPUT="output/system_info.txt"
+
+echo "[+] Collecting System Info..." > $OUTPUT
+
+uname -a >> $OUTPUT
+hostname >> $OUTPUT
+timedatectl >> $OUTPUT
+
+echo "[+] Done"

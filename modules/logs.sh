@@ -1,3 +1,3 @@
-cp /var/log/auth.log "$OUT/"
-cp /var/log/syslog "$OUT/"
-journalctl -n 1000 > journal.txt
+OUTPUT="output/logs.txt"
+
+cp /var/log/auth.log $OUTPUT 2>/dev/null

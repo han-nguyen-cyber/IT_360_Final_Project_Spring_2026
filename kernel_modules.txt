@@ -1,0 +1,41 @@
+Module                  Size  Used by
+snd_seq_dummy          12288  0
+snd_hrtimer            12288  1
+snd_seq_midi           24576  0
+snd_seq_midi_event     16384  1 snd_seq_midi
+snd_rawmidi            57344  1 snd_seq_midi
+snd_seq               122880  9 snd_seq_midi,snd_seq_midi_event,snd_seq_dummy
+snd_seq_device         16384  3 snd_seq,snd_seq_midi,snd_rawmidi
+snd_timer              53248  2 snd_seq,snd_hrtimer
+snd                   143360  6 snd_seq,snd_seq_device,snd_timer,snd_rawmidi
+soundcore              16384  1 snd
+qrtr                   53248  2
+aesni_intel            98304  0
+i2c_piix4              32768  0
+i2c_smbus              20480  1 i2c_piix4
+joydev                 32768  0
+vmgenid                12288  0
+binfmt_misc            24576  1
+input_leds             12288  0
+mac_hid                12288  0
+serio_raw              20480  0
+sch_fq_codel           24576  2
+msr                    12288  0
+parport_pc             53248  0
+ppdev                  24576  0
+lp                     32768  0
+parport                73728  3 parport_pc,lp,ppdev
+efi_pstore             12288  0
+nfnetlink              20480  1
+dmi_sysfs              20480  0
+qemu_fw_cfg            24576  0
+ip_tables              32768  0
+x_tables               65536  1 ip_tables
+autofs4                57344  2
+hid_generic            12288  0
+usbhid                 77824  0
+hid                   262144  2 usbhid,hid_generic
+bochs                  20480  1
+floppy                135168  0
+psmouse               217088  0
+pata_acpi              12288  0
