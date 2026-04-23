@@ -1,0 +1,2 @@
+default via 10.111.23.254 dev ens18 proto dhcp src 10.111.21.145 metric 100 
+10.111.16.0/21 dev ens18 proto kernel scope link src 10.111.21.145 metric 100 
