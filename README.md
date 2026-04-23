@@ -1,3 +1,6 @@
+## Team Members
+Han Nguyen, Ninel Benitez, London Morris
+
 ## Project Overview 
 x
 
