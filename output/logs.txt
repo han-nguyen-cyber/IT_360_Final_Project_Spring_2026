@@ -1,0 +1,132 @@
+2026-04-13T14:56:39.075071-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 polkitd[720]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-04-13T14:56:48.317175-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 gdm-password]: gkr-pam: unable to locate daemon control file
+2026-04-13T14:56:48.319055-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 gdm-password]: gkr-pam: stashed password to try later in open session
+2026-04-13T14:56:48.332134-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 gdm-password]: pam_unix(gdm-password:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T14:56:48.358842-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd-logind[733]: New session 2 of user vmuser.
+2026-04-13T14:56:48.432642-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 (systemd): pam_unix(systemd-user:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T14:56:49.169502-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 gdm-password]: gkr-pam: unlocked login keyring
+2026-04-13T14:56:49.960068-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-daemon[1612]: The PKCS#11 component was already initialized
+2026-04-13T14:56:49.960772-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-daemon[1808]: discover_other_daemon: 1
+2026-04-13T14:56:49.960913-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-daemon[1612]: The Secret Service was already initialized
+2026-04-13T14:56:49.960941-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-daemon[1811]: discover_other_daemon: 1
+2026-04-13T14:56:50.098402-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-daemon[1818]: discover_other_daemon: 1
+2026-04-13T14:56:54.203284-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 polkitd[720]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-04-13T14:56:55.439363-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-04-13T14:56:55.467971-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd-logind[733]: Session c1 logged out. Waiting for processes to exit.
+2026-04-13T14:56:55.761985-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 polkitd[720]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-04-13T14:56:55.770345-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd-logind[733]: Removed session c1.
+2026-04-13T14:57:01.687652-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2512]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T14:57:01.704244-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2512]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T14:57:56.862767-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by vmuser(uid=1000)
+2026-04-13T14:57:56.864505-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 pkexec[2619]: vmuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vmuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-04-13T14:58:01.710998-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2639]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T14:58:01.720332-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2639]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T14:59:01.726271-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2769]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T14:59:01.739327-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2769]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:00:01.746466-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2830]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:00:01.758336-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2830]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:00:54.754170-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-04-13T15:01:01.765146-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2918]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:01:01.776598-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2918]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:02:01.785457-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[3020]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:02:01.803827-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[3020]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:03:01.819621-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4168]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:03:01.837044-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4168]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:04:01.846116-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4181]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:04:01.858967-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4181]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:05:01.865332-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4197]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-13T15:05:01.866403-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4198]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:05:01.871304-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4197]: pam_unix(cron:session): session closed for user root
+2026-04-13T15:05:01.877107-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4198]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:06:01.886596-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4218]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:06:01.899413-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4218]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:07:01.903756-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4232]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:07:01.921219-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4232]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:08:01.918109-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4262]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:08:01.927537-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4262]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:09:01.933311-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4281]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:09:01.952196-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4281]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:10:01.961993-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4288]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:10:01.987929-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4288]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:11:01.997400-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4304]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:11:02.013226-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4304]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:12:01.019161-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4323]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:12:01.037117-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4323]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:13:01.033502-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4344]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:13:01.042518-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4344]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:14:01.046067-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4355]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:14:01.055407-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4355]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:15:01.059499-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4367]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-13T15:15:01.061050-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4368]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:15:01.063884-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4367]: pam_unix(cron:session): session closed for user root
+2026-04-13T15:15:01.070384-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4368]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:16:01.075156-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4386]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:16:01.084985-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4386]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:17:01.088678-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4397]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-13T15:17:01.097214-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4398]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:17:01.097446-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4397]: pam_unix(cron:session): session closed for user root
+2026-04-13T15:17:01.105092-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4398]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:18:01.103959-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4415]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:18:01.113117-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4415]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:19:01.117721-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4423]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:19:01.126912-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4423]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:20:01.132255-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4431]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:20:01.149641-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4431]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:21:01.153923-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4447]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:21:01.164200-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4447]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:22:01.170933-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4459]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:22:01.195953-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4459]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:23:01.193350-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4486]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:23:01.202183-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4486]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:24:01.207525-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4518]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:24:01.217312-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4518]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:25:01.221039-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4537]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-13T15:25:01.222945-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4538]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:25:01.225866-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4537]: pam_unix(cron:session): session closed for user root
+2026-04-13T15:25:01.231368-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4538]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:26:01.237339-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4549]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:26:01.248125-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4549]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:27:01.253758-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4560]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:27:01.268499-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4560]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:28:01.277308-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4569]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:28:01.294252-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4569]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:29:01.300333-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4579]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:29:01.310968-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4579]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:30:01.314503-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4590]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-13T15:30:01.315922-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4591]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:30:01.316934-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4590]: pam_unix(cron:session): session closed for user root
+2026-04-13T15:30:01.325140-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4591]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:31:01.330509-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4609]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:31:01.342982-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4609]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:32:01.351166-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4620]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:32:01.366824-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4620]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:33:01.367255-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4643]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:33:01.375985-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4643]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:34:01.379864-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4656]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:34:01.387622-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4656]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:35:01.391378-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4667]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-13T15:35:01.393121-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4668]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:35:01.394151-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4667]: pam_unix(cron:session): session closed for user root
+2026-04-13T15:35:01.403091-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4668]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:36:01.407205-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4680]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:36:01.415290-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4680]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:37:01.421896-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4700]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:37:01.441341-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4700]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:38:01.453428-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4758]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:38:01.555536-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4758]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:39:01.572812-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4767]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:39:01.585231-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4767]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:40:01.595984-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4776]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:40:01.620838-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4776]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:41:01.657380-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4789]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:41:01.676589-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4789]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:42:01.681184-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4801]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:42:01.700133-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4801]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:43:01.726308-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4942]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:43:01.737931-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4942]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:44:01.742352-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4956]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:44:01.751152-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4956]: pam_unix(cron:session): session closed for user vmuser
+2026-04-13T15:45:01.757002-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4968]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-13T15:45:01.757495-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4969]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+2026-04-13T15:45:01.762374-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4968]: pam_unix(cron:session): session closed for user root
+2026-04-13T15:45:01.766902-05:00 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4969]: pam_unix(cron:session): session closed for user vmuser

