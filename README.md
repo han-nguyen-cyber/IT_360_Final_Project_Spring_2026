@@ -1,13 +1,11 @@
-# IT_360_Final_Project_Spring_2026
-Group Project Repo
-
 ## Team Members
-* Member 1: Han Nguyen
-* Member 2: London Morris
-* Member 3: Ninel Benitez
+Han Nguyen, Ninel Benitez, London Morris
 
-## Project Idea
-Placeholder
+## Project Overview 
+x
 
-## Project Timeline
-This project will take 12 weeks. 
+## List of Features
+x
+
+## Instructions for Setting Up & Running Tool
+x
