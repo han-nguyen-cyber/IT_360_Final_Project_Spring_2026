@@ -44,17 +44,17 @@ The tool will scan for and flag common persistence mechanisms, such as:
         - SUID/SGID binaries
 
 ## Instructions for Setting Up & Running Tool
-1. To prepare for the Gemini API Integration, you will need to install the "google-genai" module. 
-   a. Install the SDK on macOS or Linux:
+**1. To prepare for the Gemini API Integration, you will need to install the "google-genai" module. 
+**   a. Install the SDK on macOS or Linux:
       ` python3 -m pip install google-genai --break-system-packages `
 
    b. Install the SDK for Python on Windows: 
    
       ` pip install -U google-genai `
 
-2. Download this Linux Live Response Digital Forensics Collector tool: \
-   a. Click on the green "<> Code" button, near the top right of the screen. \
-   b. Click "Download ZIP". /
+**2. Download this Linux Live Response Digital Forensics Collector tool: \
+**   a. Click on the green "<> Code" button, near the top right of the screen. \
+   b. Click "Download ZIP". \
    c. Navigate to your Downloads directory, or wherever you've defined as your place to save the downloaded file. \
    d. Unzip the file. \
 4. 
