@@ -49,9 +49,12 @@ The tool will scan for and flag common persistence mechanisms, such as:
       ` pip install google-generativeai `
 
    b. Or, a virtual environemnt (venv) for isolation. (macOS/Linux) \
+   
       ```
+      
       python -m venv venv 
       source venv/bin/activate
       pip install google-generativeai
+      
       ```
 
