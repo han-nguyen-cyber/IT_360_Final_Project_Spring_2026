@@ -44,15 +44,10 @@ The tool will scan for and flag common persistence mechanisms, such as:
         - SUID/SGID binaries
 
 ## Instructions for Setting Up & Running Tool
-1. To prepare for the Gemini API Integration, you will need to install the "google-generativeai" module. There are two ways you can do this: \
-   a. Standard pip Installation: \
-      ` pip install google-generativeai `
+1. To prepare for the Gemini API Integration, you will need to install the "google-genai" module. 
+   a. Install the SDK on macOS or Linux:
+      ` python3 -m pip install google-genai --break-system-packages `
 
-   b. Or, a virtual environemnt (venv) for isolation. (macOS/Linux) 
-      ```
-      python -m venv venv 
-      source venv/bin/activate
-      pip install google-generativeai
-      
-      ```
+   b. Install the SDK for Python on Windows:
+      ` pip install -U google-genai `
 
