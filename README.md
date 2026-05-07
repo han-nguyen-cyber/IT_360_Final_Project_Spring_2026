@@ -48,8 +48,7 @@ The tool will scan for and flag common persistence mechanisms, such as:
    a. Standard pip Installation: \
       ` pip install google-generativeai `
 
-   b. Or, a virtual environemnt (venv) for isolation. (macOS/Linux) \
-   
+   b. Or, a virtual environemnt (venv) for isolation. (macOS/Linux) 
       ```
       
       python -m venv venv 
