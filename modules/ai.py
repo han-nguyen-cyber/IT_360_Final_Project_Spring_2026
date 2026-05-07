@@ -1,73 +1,59 @@
-from google import genai
+import google.generativeai as genai
 import os
 import sys
 
-# API key check
-api_key = os.getenv("GEMINI_API_KEY")
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-if not api_key:
-    print("ERROR: GEMINI_API_KEY not set")
-    sys.exit(1)
+model = genai.GenerativeModel("gemini-1.5-flash")
 
-# Client setup
-client = genai.Client(api_key=api_key)
+def analyze_data(data):
 
-# Input check
-if len(sys.argv) < 2 or not sys.argv[1]:
-    print("Usage: python3 ai.py <input_file>")
-    sys.exit(1)
-
-input_file = sys.argv[1]
-
-# Read forensic data
-try:
-    with open(input_file, "r") as f:
-        forensic_data = f.read()
-except FileNotFoundError:
-    print(f"ERROR: File not found: {input_file}")
-    sys.exit(1)
-
-# CREDO PROMPT
-prompt = f"""
+    prompt = f"""
 [C - CONTEXT]
-You are analyzing Linux live-response forensic artifacts collected during an incident response investigation.
+You are analyzing live-response digital forensic data collected from a Linux system.
+The data includes system info, processes, network activity, logs, and persistence artifacts.
 
 [R - ROLE]
-You are a senior SOC analyst and digital forensics investigator.
+You are a senior digital forensics analyst specializing in incident response and threat detection.
 
 [E - EXPECTATIONS]
-Analyze the forensic data for:
-- suspicious processes
-- persistence mechanisms
-- unusual network activity
-- indicators of compromise
-- anomalous behavior
+Analyze the provided data and:
+- Identify suspicious processes or commands
+- Detect potential persistence mechanisms
+- Highlight anomalies or indicators of compromise (IOCs)
+- Correlate findings where possible
 
 [D - DELIVERABLES]
-Return:
-1. Executive Summary
-2. Suspicious Findings
-3. Persistence Findings
-4. Network Findings
-5. Risk Assessment
-6. Recommended Actions
+Provide output in the following structured format:
+
+1. Summary of Findings
+2. Suspicious Indicators (bullet points)
+3. Detected Persistence Mechanisms
+4. Notable Anomalies
+5. Recommended Next Steps
 
 [O - OUTPUT CONSTRAINTS]
-- Be evidence-based only
-- Do not hallucinate
-- Clearly state uncertainty
-- Use concise technical language
+- Be concise and technical
+- Do NOT make assumptions without evidence
+- Clearly state uncertainty when applicable
+- Do NOT hallucinate missing data
+- Base conclusions ONLY on the provided input
 
-[FORENSIC DATA]
-{forensic_data}
+[DATA]
+{data}
 """
 
-# Gemini request:
-response = client.models.generate_content(
-    model="gemini-2.0-flash",
-    contents=prompt
-)
+    response = model.generate_content(prompt)
+    return response.text
 
-# Output
-print("AI Forensic Analysis:")
-print(response.text)
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python3 ai.py <file>")
+        sys.exit(1)
+
+    with open(sys.argv[1], "r") as f:
+        data = f.read()
+
+    result = analyze_data(data)
+    print(result)
