@@ -1,21 +1,29 @@
 #!/bin/bash
 
-OUTPUT="output/persistence.txt"
+OUTPUT_DIR=$1
 
-echo "[+] Running Persistence Detection..." > $OUTPUT
+mkdir -p "$OUTPUT_DIR/persistence"
 
-echo "=== CRON JOBS ===" >> $OUTPUT
-crontab -l >> $OUTPUT 2>/dev/null
-ls /etc/cron* >> $OUTPUT
+echo "Checking persistence mechanisms..."
 
-echo "=== STARTUP SCRIPTS ===" >> $OUTPUT
-cat /etc/rc.local >> $OUTPUT 2>/dev/null
-ls /etc/init.d >> $OUTPUT
+echo "[CRON JOBS]" > "$OUTPUT_DIR/persistence/cron.txt"
 
-echo "=== SYSTEMD SERVICES ===" >> $OUTPUT
-systemctl list-unit-files --type=service >> $OUTPUT
+crontab -l >> "$OUTPUT_DIR/persistence/cron.txt" 2>/dev/null
 
-echo "=== SUID/SGID BINARIES ===" >> $OUTPUT
-find / -perm -4000 -type f 2>/dev/null >> $OUTPUT
+ls -la /etc/cron* >> "$OUTPUT_DIR/persistence/cron.txt" 2>/dev/null
 
-echo "[+] Persistence Detection Complete"
+echo "[SYSTEMD SERVICES]" > "$OUTPUT_DIR/persistence/systemd.txt"
+
+systemctl list-unit-files --type=service >> "$OUTPUT_DIR/persistence/systemd.txt" 2>/dev/null
+
+echo "[RC.LOCAL]" > "$OUTPUT_DIR/persistence/rc_local.txt"
+
+if [ -f /etc/rc.local ]; then
+    cat /etc/rc.local >> "$OUTPUT_DIR/persistence/rc_local.txt"
+else
+    echo "rc.local not found" >> "$OUTPUT_DIR/persistence/rc_local.txt"
+fi
+
+echo "[SUID/SGID BINARIES]" > "$OUTPUT_DIR/persistence/suid_sgid.txt"
+
+find / -perm /6000 -type f 2>/dev/null >> "$OUTPUT_DIR/persistence/suid_sgid.txt"
