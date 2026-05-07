@@ -2,10 +2,16 @@ import google.generativeai as genai
 import os
 import sys
 
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+# This is the ai.py script.
+# Interacts with the Gemini API to perform automated forensics analysis and reporting. 
 
+# Configuring the Gemini API client using an API key stored in an .env file, isolated on our local system.
+# The key should not be included in the source code, for security reasons. 
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+# Select model version: this one was chosen for its long context windows, which is ideal for processing long forensic log files.
 model = genai.GenerativeModel("gemini-1.5-flash")
 
+# CREDO, which was discussed in class, was utilized for ideal prompt engineering.
 def analyze_data(data):
 
     prompt = f"""
@@ -39,6 +45,7 @@ Provide output in the following structured format:
 - Do NOT hallucinate missing data
 - Base conclusions ONLY on the provided input
 
+# After the model is prompted, the generated response is captured in a file 
 [DATA]
 {data}
 """
