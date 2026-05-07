@@ -44,8 +44,8 @@ The tool will scan for and flag common persistence mechanisms, such as:
         - SUID/SGID binaries
 
 ## Instructions for Setting Up & Running Tool
-1. To prepare for the Gemini API Integration, you will need to install the "google-genai" module. 
-   a. Install the SDK on macOS or Linux:
+1. To prepare for the Gemini API Integration, you will need to install the "google-genai" module. \
+   a. Install the SDK on macOS or Linux: \
       ` python3 -m pip install google-genai --break-system-packages `
 
    b. Install the SDK for Python on Windows: 
