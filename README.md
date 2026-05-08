@@ -56,7 +56,7 @@ The tool will scan for and flag common persistence mechanisms, such as:
        a. Click on the green "<> Code" button, near the top right of the screen. \
        b. Click "Download ZIP". \
        c. Navigate to your Downloads directory, or wherever you've defined as your place to save the downloaded file. \
-       d. Unzip the file. 
+       d. Unzip the file. \
 
 **3. This tool runs on bash scripts; you must make the scripts executable. You can use the chmod (change mode) command on all the .sh files at once, after you've unzipped the tool. Navigate into the unzipped directory and run this:**
    ```
