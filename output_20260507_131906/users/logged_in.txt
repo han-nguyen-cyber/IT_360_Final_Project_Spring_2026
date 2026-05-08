@@ -1,0 +1,2 @@
+[LOGGED IN USERS]
+kali     seat0        2026-05-07 12:08 (:0)

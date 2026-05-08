@@ -1,0 +1,113 @@
+[KERNEL MODULES]
+Module                  Size  Used by
+tcp_diag               12288  0
+udp_diag               12288  0
+inet_diag              28672  2 tcp_diag,udp_diag
+xt_conntrack           12288  2
+xt_MASQUERADE          16384  2
+bridge                389120  0
+stp                    12288  1 bridge
+llc                    16384  2 bridge,stp
+snd_seq_dummy          12288  0
+snd_hrtimer            12288  1
+snd_seq               110592  7 snd_seq_dummy
+snd_seq_device         16384  1 snd_seq
+xt_set                 20480  0
+ip_set                 69632  1 xt_set
+nft_chain_nat          12288  5
+nf_nat                 65536  2 nft_chain_nat,xt_MASQUERADE
+nf_conntrack          204800  3 xt_conntrack,nf_nat,xt_MASQUERADE
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         12288  1 nf_conntrack
+xt_addrtype            12288  4
+nft_compat             20480  8
+x_tables               53248  5 xt_conntrack,nft_compat,xt_addrtype,xt_set,xt_MASQUERADE
+nf_tables             380928  108 nft_compat,nft_chain_nat
+libcrc32c              12288  3 nf_conntrack,nf_nat,nf_tables
+xfrm_user              65536  1
+xfrm_algo              16384  1 xfrm_user
+intel_rapl_msr         20480  0
+intel_rapl_common      53248  1 intel_rapl_msr
+intel_uncore_frequency_common    16384  0
+intel_pmc_core        122880  0
+overlay               212992  0
+intel_vsec             20480  1 intel_pmc_core
+pmt_telemetry          16384  1 intel_pmc_core
+pmt_class              12288  1 pmt_telemetry
+rapl                   20480  0
+rfkill                 40960  2
+snd_intel8x0           49152  1
+qrtr                   57344  2
+vboxsf                 45056  0
+snd_ac97_codec        196608  1 snd_intel8x0
+ac97_bus               12288  1 snd_ac97_codec
+snd_pcm               188416  2 snd_intel8x0,snd_ac97_codec
+snd_timer              53248  3 snd_seq,snd_hrtimer,snd_pcm
+snd                   155648  10 snd_seq,snd_seq_device,snd_intel8x0,snd_timer,snd_ac97_codec,snd_pcm
+joydev                 24576  0
+soundcore              16384  1 snd
+pcspkr                 12288  0
+vboxguest              53248  6 vboxsf
+sunrpc                872448  1
+binfmt_misc            28672  1
+ac                     16384  0
+serio_raw              16384  0
+evdev                  28672  10
+sg                     45056  0
+efi_pstore             12288  0
+configfs               69632  1
+nfnetlink              20480  5 nft_compat,nf_tables,ip_set
+vsock_loopback         12288  0
+vmw_vsock_virtio_transport_common    61440  1 vsock_loopback
+vmw_vsock_vmci_transport    45056  0
+vsock                  61440  3 vmw_vsock_virtio_transport_common,vsock_loopback,vmw_vsock_vmci_transport
+vmw_vmci              110592  1 vmw_vsock_vmci_transport
+autofs4                57344  2
+ext4                 1142784  1
+crc16                  12288  1 ext4
+mbcache                16384  1 ext4
+jbd2                  200704  1 ext4
+crc32c_generic         12288  0
+hid_generic            12288  0
+usbhid                 77824  0
+hid                   262144  2 usbhid,hid_generic
+sr_mod                 28672  0
+crct10dif_pclmul       12288  1
+cdrom                  81920  1 sr_mod
+sd_mod                 81920  1
+crc32_pclmul           12288  0
+crc32c_intel           16384  3
+ata_generic            12288  0
+ata_piix               45056  0
+ahci                   49152  1
+ghash_clmulni_intel    16384  0
+libahci                61440  1 ahci
+sha512_ssse3           53248  0
+vmwgfx                466944  1
+libata                458752  4 ata_piix,libahci,ahci,ata_generic
+drm_ttm_helper         16384  2 vmwgfx
+ttm                   102400  2 vmwgfx,drm_ttm_helper
+drm_kms_helper        249856  2 vmwgfx,drm_ttm_helper
+sha256_ssse3           32768  0
+ohci_pci               20480  0
+ehci_pci               16384  0
+ehci_hcd              110592  1 ehci_pci
+scsi_mod              327680  4 sd_mod,libata,sg,sr_mod
+sha1_ssse3             32768  0
+e1000                 180224  0
+ohci_hcd               65536  1 ohci_pci
+drm                   765952  6 vmwgfx,drm_kms_helper,drm_ttm_helper,ttm
+i2c_piix4              28672  0
+usbcore               405504  5 ohci_hcd,ehci_pci,usbhid,ehci_hcd,ohci_pci
+psmouse               212992  0
+usb_common             16384  3 ohci_hcd,usbcore,ehci_hcd
+button                 24576  0
+battery                28672  0
+video                  81920  0
+scsi_common            16384  5 scsi_mod,sd_mod,libata,sg,sr_mod
+wmi                    32768  1 video
+i2c_smbus              16384  1 i2c_piix4
+aesni_intel           122880  0
+gf128mul               16384  1 aesni_intel
+crypto_simd            16384  1 aesni_intel
+cryptd                 28672  2 crypto_simd,ghash_clmulni_intel

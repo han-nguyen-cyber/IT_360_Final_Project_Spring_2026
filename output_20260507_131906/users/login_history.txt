@@ -1,0 +1,13 @@
+[LOGIN HISTORY]
+kali     tty7         :0               Thu May  7 12:08 - still logged in
+lightdm  tty7         :0               Thu May  7 12:08 - 12:08  (00:00)
+kali     tty7         :0               Wed May  6 13:32 - still logged in
+lightdm  tty7         :0               Wed May  6 13:32 - 13:32  (00:00)
+kali     tty7         :0               Sun May  3 23:49 - still logged in
+lightdm  tty7         :0               Sun May  3 23:49 - 23:49  (00:00)
+lightdm  tty7         :0               Sun May  3 23:05 - still logged in
+kali     tty7         :0               Thu Apr 30 19:28 - still logged in
+lightdm  tty7         :0               Thu Apr 30 19:27 - 19:28  (00:00)
+kali     tty2                          Sat Apr 25 13:43 - still logged in
+
+wtmpdb begins Sat Apr 25 13:43:11 2026

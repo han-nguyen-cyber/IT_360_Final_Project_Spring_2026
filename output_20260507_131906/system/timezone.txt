@@ -1,0 +1,8 @@
+[TIMEZONE]
+               Local time: Thu 2026-05-07 13:19:07 EDT
+           Universal time: Thu 2026-05-07 17:19:07 UTC
+                 RTC time: Thu 2026-05-07 17:14:46
+                Time zone: America/New_York (EDT, -0400)
+System clock synchronized: no
+              NTP service: inactive
+          RTC in local TZ: no

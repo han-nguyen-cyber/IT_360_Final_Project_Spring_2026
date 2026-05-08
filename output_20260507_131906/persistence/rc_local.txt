@@ -1,0 +1,2 @@
+[RC.LOCAL]
+rc.local not found
