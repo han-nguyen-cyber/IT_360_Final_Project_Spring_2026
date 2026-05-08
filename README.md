@@ -44,7 +44,7 @@ The tool will scan for and flag common persistence mechanisms, such as:
         - SUID/SGID binaries
 
 ## Instructions for Setting Up & Running Tool
-1. To prepare for the Gemini API Integration, you will need to install the "google-genai" module. \
+**1. To prepare for the Gemini API Integration, you will need to install the "google-genai" module.** \
    a. Install the SDK on macOS or Linux: \
       ` python3 -m pip install google-genai --break-system-packages `
 
@@ -52,14 +52,14 @@ The tool will scan for and flag common persistence mechanisms, such as:
    
       ` pip install -U google-genai `
 
-2. Download this Linux Live Response Digital Forensics Collector tool: \
+**2. Download this Linux Live Response Digital Forensics Collector tool:** \
    a. Click on the green "<> Code" button, near the top right of the screen. \
    b. Click "Download ZIP". \
    c. Navigate to your Downloads directory, or wherever you've defined as your place to save the downloaded file. \
    d. Unzip the file. 
-3. This tool runs on bash scripts; you must make each of the scripts executable. You can use the chmod (change mode) command on all the .sh files at once, after you've unzipped the tool. Navigate into the unzipped directory and run this:
+**3. This tool runs on bash scripts; you must make the scripts executable. You can use the chmod (change mode) command on all the .sh files at once, after you've unzipped the tool. Navigate into the unzipped directory and run this:**
    ```
    chmod +x *.sh
    ```
-4. To run the script, after the files are executable, you can launch the script with this:
+**4. To run the script, after the files are executable, you can launch the script with this:**
    ` ./main.sh `
