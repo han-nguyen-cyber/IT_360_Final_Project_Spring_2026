@@ -1,6 +1,14 @@
 ## Team Members
 Han Nguyen, Ninel Benitez, London Morris
 
+## Folder Structure:
+├── docs/               # Technical documentation: includes slideshow, final report, and project proposal
+├── output/             # Module scan outputs and AI analysis output report
+├── src/                # Main application source code
+│   ├── modules/        # Modular scripts (e.g., system_info.sh)
+│   └── main.sh         # Main entry point for the scanner
+└── README.md           # Keeps the 'output/' folder and sensitive logs out of Git
+
 ## Project Overview 
 We will design and implement a Linux Live Response Digital Forensics Collector, using Bash scripting. The tool will perform read-only evidence collection on a running Linux system, preserving forensic artifacts while maintaining forensic integrity. 
 
