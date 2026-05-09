@@ -16,23 +16,24 @@ date > "$OUTPUT_DIR/timestamp.txt"
 # Each module is based off a standalone script, located in /modules, for the purpose of modularity and clean code.
 # Modules include system_info.sh, users_auth.sh, processes.sh, network.sh, logs.sh,  and persistence.sh
 # All module results are saved into the unique OUTPUT_DIR created above.
+
 echo "Running System Info Module..."
-bash modules/system_info.sh "$OUTPUT_DIR"
+bash "$SCRIPT_DIR/modules/system_info.sh" "$OUTPUT_DIR"
 
 echo "Running User/Auth Module..."
-bash modules/users_auth.sh "$OUTPUT_DIR"
+bash "$SCRIPT_DIR/modules/users_auth.sh" "$OUTPUT_DIR"
 
 echo "Running Process Module..."
-bash modules/processes.sh "$OUTPUT_DIR"
+bash "$SCRIPT_DIR/modules/processes.sh" "$OUTPUT_DIR"
 
 echo "Running Network Module..."
-bash modules/network.sh "$OUTPUT_DIR"
+bash "$SCRIPT_DIR/modules/network.sh" "$OUTPUT_DIR"
 
 echo "Running Logs Module..."
-bash modules/logs.sh "$OUTPUT_DIR"
+bash "$SCRIPT_DIR/modules/logs.sh" "$OUTPUT_DIR"
 
 echo "Running Persistence Detection Module..."
-bash modules/persistence.sh "$OUTPUT_DIR"
+bash "$SCRIPT_DIR/modules/persistence.sh" "$OUTPUT_DIR"
 
 echo "Collection Complete. Output: $OUTPUT_DIR"
 
