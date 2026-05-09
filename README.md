@@ -54,24 +54,46 @@ The tool will scan for and flag common persistence mechanisms, such as:
         - SUID/SGID binaries
 
 ## Instructions for Setting Up & Running Tool
-**1. To prepare for the Gemini API Integration, you will need to install the "google-genai" module.** \
-       a. Install the SDK on macOS or Linux: \
-       
-    ` python3 -m pip install google-genai --break-system-packages `
-        
-     \ b. Install the SDK for Python on Windows: \
-        
-      ` pip install -U google-genai `
 
-**2. Download this Linux Live Response Digital Forensics Collector tool:** \
-       a. Click on the green "<> Code" button, near the top right of the screen. \
-       b. Click "Download ZIP". \
-       c. Navigate to your Downloads directory, or wherever you've defined as your place to save the downloaded file. \
-       d. Unzip the file. \
+### 1. Install the Gemini API SDK
 
-**3. This tool runs on bash scripts; you must make the scripts executable. You can use the chmod (change mode) command on all the .sh files at once, after you've unzipped the tool. Navigate into the unzipped directory and run this:**
-   ```
-   chmod +x *.sh
-   ```
-**4. To run the tool, after the files are executable, you can launch the script with this:** \
-   ` ./main.sh `
+#### macOS / Linux
+```bash
+python3 -m pip install google-genai --break-system-packages
+```
+
+#### Windows
+```bash
+pip install -U google-genai
+```
+
+---
+
+### 2. Download the Linux Live Response Digital Forensics Collector Tool
+
+1. Click the green **`<> Code`** button near the top-right of the repository page.
+2. Click **Download ZIP**.
+3. Navigate to your Downloads folder (or wherever you saved the file).
+4. Extract/unzip the downloaded ZIP archive.
+
+---
+
+### 3. Make the Bash Scripts Executable
+
+After extracting the tool, open a terminal and navigate into the unzipped directory.
+
+Run:
+
+```bash
+chmod +x *.sh
+```
+
+---
+
+### 4. Run the Tool
+
+Launch the main script with:
+
+```bash
+./main.sh
+```
