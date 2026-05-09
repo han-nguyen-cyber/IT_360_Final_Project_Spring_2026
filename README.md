@@ -62,5 +62,5 @@ The tool will scan for and flag common persistence mechanisms, such as:
    ```
    chmod +x *.sh
    ```
-**4. To run the script, after the files are executable, you can launch the script with this:** \
+**4. To run the tool, after the files are executable, you can launch the script with this:** \
    ` ./main.sh `
