@@ -58,9 +58,11 @@ The tool will scan for and flag common persistence mechanisms, such as:
        a. Install the SDK on macOS or Linux: \
       ` python3 -m pip install google-genai --break-system-packages `
 
-       b. Install the SDK for Python on Windows: \
+       b. Install the SDK for Python on Windows: 
    
-      ` pip install -U google-genai `
+      ``` 
+      pip install -U google-genai 
+      ```
 
 **2. Download this Linux Live Response Digital Forensics Collector tool:** \
        a. Click on the green "<> Code" button, near the top right of the screen. \
