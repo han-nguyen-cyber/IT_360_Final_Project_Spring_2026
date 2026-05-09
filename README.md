@@ -55,7 +55,7 @@ The tool will scan for and flag common persistence mechanisms, such as:
 
 ## Instructions for Setting Up & Running Tool
 **1. To prepare for the Gemini API Integration, you will need to install the "google-genai" module.** \
-       a. Install the SDK on macOS or Linux: \
+       a. Install the SDK on macOS or Linux: 
        
     ` python3 -m pip install google-genai --break-system-packages `
 
